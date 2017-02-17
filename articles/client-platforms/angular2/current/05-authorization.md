@@ -13,7 +13,7 @@ budicon: 546
   ]
 }) %>
 
-The previous step covers how to protect the resources served by your API such that only users who have authenticated in your application are able to access them. Protecting your data resources in this way is sufficient if you want to restrict access in a catch-all fashion. However, by itself, it doesn't provide any means to make decisions about which resouces a _particular_ user should and should not have access to. **Authorization** in the context of this tutorial is about the way that these decisions about access for certain users is made and the mechanisms used to enforce them.
+The previous step covers how to protect the resources served by your API such that only users who have authenticated in your application are able to access them. Protecting your data resources in this way is sufficient if you want to restrict access in a catch-all fashion. However, by itself, it doesn't provide any means to make decisions about which resouces a _particular_ user should and should not have access to. The term **Authorization**--in the context of this tutorial--is about how decisions regarding data access for certain users is made, and also the mechanisms that are used to enforce these decisions.
 
 ## Access Control in Single Page Apps
 
